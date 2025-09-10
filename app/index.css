@@ -8,8 +8,6 @@
 }
 .box {
   width: 377px;
-  /* height: 290px; */
-  height: 600px;
   background-color: #ffffff;
   border-radius: 10px;
   gap: 40px;
@@ -21,7 +19,6 @@
 }
 .container {
   width: 345px;
-  height: 187px;
   gap: 28px;
   display: flex;
   justify-content: center;
@@ -35,6 +32,7 @@
   font-size: 20px;
   text-align: center;
   color: black;
+  margin-top: 20px;
 }
 .text {
   width: 345px;
@@ -87,14 +85,14 @@
 .comp {
   width: 87px;
 }
+.taskNemeh {
+}
 .anhaar {
   font-weight: 400;
   font-size: 14px;
   text-align: center;
   color: #6b7280;
   cursor: pointer;
-}
-.anhaar:hover {
 }
 .footer {
   width: 345px;
@@ -106,7 +104,7 @@
   font-weight: 400;
   font-size: 12px;
   color: #6b7280;
-  margin-top: 100px;
+  margin-bottom: 20px;
 }
 .pinecone {
   font-weight: 400;
@@ -123,7 +121,7 @@
   padding: 16px;
   cursor: pointer;
   border-radius: 6px;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   background-color: #ebeef1;
 }
@@ -152,5 +150,4 @@
   border-radius: 6px;
   border: none;
   background-color: #f3e2e2;
-  margin-left: 110px;
 }
